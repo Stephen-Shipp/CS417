@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo:*)",
+      "Bash(bash -ic \"alias l\")",
+      "Bash(test:*)",
+      "Bash(sudo apt-get:*)"
+    ]
+  }
+}

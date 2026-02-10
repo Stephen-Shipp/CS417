@@ -1,0 +1,12 @@
+[package]
+name = "monte_carlo_integration"
+version = "0.1.0"
+authors = ["Thomas J. Kennedy <tkennedy@cs.odu.edu>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.39", features = ["derive"] }
+rand = "0.7"
+rayon = "1.7.0"

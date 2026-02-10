@@ -1,0 +1,13 @@
+[package]
+name = "nonlinear_equation_solvers"
+version = "0.1.0"
+authors = ["Thomas J. Kennedy <tkennedy@cs.odu.edu>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dev-dependencies]
+hamcrest2 = "*"
+
+[dependencies]
+thiserror = "2.0.3"
