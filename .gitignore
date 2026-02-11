@@ -1,0 +1,9 @@
+# Rust build artifacts
+Semester_Project/target/
+
+# Zip archives
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db

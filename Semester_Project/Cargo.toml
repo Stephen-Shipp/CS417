@@ -1,0 +1,9 @@
+[package]
+name = "Semester_Project"
+version = "0.1.0"
+authors = ["Stephen Shipp <sship007@odu.edu>"]
+edition = "2024"
+
+[dependencies]
+regex = "1"
+thiserror = "2"
