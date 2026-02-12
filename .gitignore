@@ -1,6 +1,10 @@
 # Rust build artifacts
 Semester_Project/target/
 
+#pyc files
+__pycache__/
+*.pyc
+
 # Zip archives
 *.zip
 
