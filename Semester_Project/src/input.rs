@@ -1,9 +1,13 @@
+//! Input Library for Temperature Data
+//!
+//! Parses temperature readings from input files.
+//! Handles both labeled (+61.0°C) and unlabeled (61.0) formats.
+
 use regex::Regex;
 use std::cell::LazyCell;
 use std::fs::File;
 use std::io::BufRead;
 use std::io::BufReader;
-
 use thiserror::Error;
 
 #[derive(Debug)]
@@ -27,7 +31,6 @@ const LINE_DELIM_RE: LazyCell<Regex> =
 pub fn read_temperature_file(filename: &str) -> Result<Vec<TemperatureLine>, ParseError> {
     let file = File::open(filename)?;
     let reader = BufReader::new(file);
-
     read_temperatures(reader)
 }
 

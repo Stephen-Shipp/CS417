@@ -1,8 +1,7 @@
 [package]
-name = "Semester_Project"
+name = "semester_project"
 version = "0.1.0"
-authors = ["Stephen Shipp <sship007@odu.edu>"]
-edition = "2024"
+edition = "2021"
 
 [dependencies]
 regex = "1"
